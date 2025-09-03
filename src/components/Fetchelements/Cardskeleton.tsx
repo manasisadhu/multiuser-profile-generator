@@ -4,7 +4,7 @@ import { Card } from "@/components/shadcnui/card";
 import { Skeleton } from "@/components/shadcnui/skeleton";
 const CardSkeleton = () => {
 	return (
-		<Card className="flex w-full max-w-sm items-start justify-start gap-4 p-4 md:max-w-md lg:max-w-lg">
+		<Card className="flex w-[350px] items-start justify-start gap-4 p-4">
 			{/* Avatar Skeleton */}
 			<Skeleton className="mx-auto h-[80px] w-[80px] rounded-full md:h-[100px] md:w-[100px]" />
 

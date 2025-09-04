@@ -16,7 +16,7 @@ const page = async () => {
 		<>
 			<Suspense
 				fallback={
-					<section className="grid grid-cols-1 place-items-center gap-4 md:grid-cols-2 lg:grid-cols-3">
+					<section className="grid grid-cols-1 place-items-center gap-4 md:grid-cols-2 lg:h-[80dvh] lg:grid-cols-3">
 						{UserData.map((result) => (
 							<CardSkeleton key={result.phone} />
 						))}

@@ -21,6 +21,8 @@ export type UserDetailType = {
 
 	phone: string;
 
+	email: string;
+
 	picture: {
 		large: string;
 		medium: string;

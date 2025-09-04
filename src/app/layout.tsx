@@ -16,7 +16,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
 					enableSystem={false}>
 					<Header />
 
-					<main className="container mx-auto px-6 py-3">
+					<main className="container mx-auto max-w-7xl px-6 py-3">
 						{children}
 					</main>
 					<Footer />

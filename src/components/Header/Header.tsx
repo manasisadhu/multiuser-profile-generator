@@ -9,7 +9,7 @@ const Header = () => {
 		<header
 			className="border-b shadow"
 			aria-label="app-header">
-			<div className="container mx-auto flex max-w-5xl items-center justify-between py-3">
+			<div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
 				<div className="flex items-center gap-2">
 					<Link href={"/"}>
 						<h1

@@ -1,7 +1,7 @@
 import ky from "ky";
 import { UserDetailResultsType } from "./types";
 
-const fetchdata = async (num?: number) => {
+const fetchData = async (num?: number) => {
 	const { results } = await ky
 		.get("https://randomuser.me/api/", {
 			searchParams: {
@@ -13,4 +13,4 @@ const fetchdata = async (num?: number) => {
 	return results;
 };
 
-export default fetchdata;
+export default fetchData;

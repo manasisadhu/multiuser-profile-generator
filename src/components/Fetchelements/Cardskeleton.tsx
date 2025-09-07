@@ -1,5 +1,3 @@
-"use client";
-
 import { Card } from "@/components/shadcnui/card";
 import { Skeleton } from "@/components/shadcnui/skeleton";
 const CardSkeleton = () => {

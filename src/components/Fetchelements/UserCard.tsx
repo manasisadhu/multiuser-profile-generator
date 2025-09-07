@@ -15,10 +15,10 @@ const UserCard = ({ info }: CardPropsType) => {
 				<ShineBorder shineColor={["#A07CFE", "#FE8FB5", "#FFBE7B"]} />
 				<div className="flex flex-col items-center justify-center gap-6">
 					<Image
-						src={info.picture.medium}
+						src={info.picture.large}
 						alt="profile"
-						height={100}
-						width={100}
+						height={400}
+						width={400}
 						priority
 						className="h-[100px] w-[100px] rounded-full"
 					/>

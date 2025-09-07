@@ -1,4 +1,4 @@
-import fetchdata from "@/lib/fetchdata";
+import fetchData from "@/lib/fetchData";
 import UserCard from "./UserCard";
 
 interface cardprops {
@@ -6,11 +6,11 @@ interface cardprops {
 }
 
 const DynamicCard = async ({ id }: cardprops) => {
-	const UserData = await fetchdata(parseInt(id.num));
+	const userData = await fetchData(parseInt(id.num));
 	return (
 		<>
 			<section className="grid grid-cols-1 place-items-center gap-10 lg:grid-cols-3">
-				{UserData.map((result) => {
+				{userData.map((result) => {
 					return (
 						<UserCard
 							key={result.phone}
